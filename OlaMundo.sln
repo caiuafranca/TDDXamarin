@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDOlaMundo", "TDDOlaMundo\TDDOlaMundo.csproj", "{47CF70D5-6E4B-44A2-A98D-1760B6D0183C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47CF70D5-6E4B-44A2-A98D-1760B6D0183C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{47CF70D5-6E4B-44A2-A98D-1760B6D0183C}.Debug|x86.Build.0 = Debug|Any CPU
+		{47CF70D5-6E4B-44A2-A98D-1760B6D0183C}.Release|x86.ActiveCfg = Release|Any CPU
+		{47CF70D5-6E4B-44A2-A98D-1760B6D0183C}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
