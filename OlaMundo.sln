@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDOlaMundo", "TDDOlaMundo\TDDOlaMundo.csproj", "{47CF70D5-6E4B-44A2-A98D-1760B6D0183C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JogoXamarin", "JogoXamarin\JogoXamarin.csproj", "{E5F834E1-C3C6-4026-A2FA-624D1946BA79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jogo.Model", "Jogo.Model\Jogo.Model.csproj", "{7E108089-EF27-43EC-BDC4-5404DDB92947}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,5 +17,13 @@ Global
 		{47CF70D5-6E4B-44A2-A98D-1760B6D0183C}.Debug|x86.Build.0 = Debug|Any CPU
 		{47CF70D5-6E4B-44A2-A98D-1760B6D0183C}.Release|x86.ActiveCfg = Release|Any CPU
 		{47CF70D5-6E4B-44A2-A98D-1760B6D0183C}.Release|x86.Build.0 = Release|Any CPU
+		{7E108089-EF27-43EC-BDC4-5404DDB92947}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7E108089-EF27-43EC-BDC4-5404DDB92947}.Debug|x86.Build.0 = Debug|Any CPU
+		{7E108089-EF27-43EC-BDC4-5404DDB92947}.Release|x86.ActiveCfg = Release|Any CPU
+		{7E108089-EF27-43EC-BDC4-5404DDB92947}.Release|x86.Build.0 = Release|Any CPU
+		{E5F834E1-C3C6-4026-A2FA-624D1946BA79}.Debug|x86.ActiveCfg = Debug|x86
+		{E5F834E1-C3C6-4026-A2FA-624D1946BA79}.Debug|x86.Build.0 = Debug|x86
+		{E5F834E1-C3C6-4026-A2FA-624D1946BA79}.Release|x86.ActiveCfg = Release|x86
+		{E5F834E1-C3C6-4026-A2FA-624D1946BA79}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal

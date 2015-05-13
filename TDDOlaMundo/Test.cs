@@ -1,11 +1,10 @@
 ﻿using NUnit.Framework;
 using System;
-
 namespace TDDOlaMundo
 {
 	[TestFixture ()]
 	public class Test
-	{
+	{	
 		Personagem personagem;
 
 		[SetUp()]

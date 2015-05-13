@@ -32,14 +32,36 @@
     <Reference Include="nunit.framework">
       <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Test.cs" />
-    <Compile Include="Personagem.cs" />
-    <Compile Include="Itens.cs" />
+    <Compile Include="Service References\www.w3schools.com\Reference.cs">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Service References\www.w3schools.com\TempConvert.disco" />
+    <None Include="Service References\www.w3schools.com\TempConvert.wsdl" />
+    <None Include="Service References\www.w3schools.com\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\www.w3schools.com" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Jogo.Model\Jogo.Model.csproj">
+      <Project>{7E108089-EF27-43EC-BDC4-5404DDB92947}</Project>
+      <Name>Jogo.Model</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>
